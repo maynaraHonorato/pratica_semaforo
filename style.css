@@ -1,0 +1,52 @@
+.semaforo {
+    width: 140px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: black;
+    padding: 10px;
+}
+
+.semaforo div {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.semaforo div.fechado {
+    background-color: red;
+    opacity: 0.3;
+}
+
+.semaforo div.aguarde {
+    background-color: yellow;
+    opacity: 0.3;
+}
+
+.semaforo div.aberto {
+    background-color: green;
+    opacity: 0.3;
+}
+
+.semaforo div.fechado:hover{
+    background-color: red;
+    opacity: 1;
+}
+
+.semaforo div.aguarde:hover{
+    background-color: yellow;
+    opacity: 1;
+}
+
+.semaforo div.aberto:hover{
+    background-color: green;
+    opacity: 1;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 260px;
+}
